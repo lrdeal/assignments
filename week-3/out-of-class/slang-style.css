@@ -8,8 +8,10 @@ body  {
 html {
   background-color: white;
 }
-h1 {
+h1, h2 {
   font-family: 'Goudy Bookletter 1911', serif;
+}
+header h1 {
   color: #CD8C52;
 }
 a:link {
@@ -30,6 +32,7 @@ blockquote, figure {
   font-variant: small-caps;
 }
 .term {
+  font-family: 'Goudy Bookletter 1911', serif;
   font-variant: small-caps;
   size: 1.5em;
 }
