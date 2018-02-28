@@ -15,7 +15,7 @@ h1, h2, h3, nav {
 }
 
 h1, h2, h3 {
-    text-transform: uppercase;
+    text-transform: mixed-case;
     margin-bottom: .5rem;
 }
 
@@ -24,6 +24,8 @@ header {
     background-color: #6d6fae;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
 }
 
 header img {
@@ -40,6 +42,8 @@ nav {
     background-color: #6d6fae;
     color: white;
     position: relative;
+    padding-right: 6rem;
+    padding-left; 6rem;
 }
 
 nav div.dropdown {
@@ -79,6 +83,38 @@ div.dropbtn {
     cursor: pointer;
 }
 
+main {
+    display: flex;
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.fables{
+    width: 50%;
+    text-align: center;
+}
+article{
+  text-align: left;
+}
+
+.hidden 
+{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+aside{
+    width: 25rem;
+}
+
+.scroll{
+    width: 12.5rem;
+}
+
 
 /** Stuff in the main body **/
 article p {
@@ -86,11 +122,11 @@ article p {
 }
 
 .moral {
-    font-style: italic;
+    text-decoration: underline;
 }
 
 .link-to-source {
-    opacity: .5;
+    opacity: 100;
 }
 
 #about-aesop {
@@ -102,6 +138,11 @@ article p {
 
 /* Footer */
 footer {
+    display: flex;
     background-color: #cfc354;
     color: #fffbd5;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
