@@ -16,23 +16,13 @@ let hours = [
     "Sunday: closed"
 ];
 
-let space = ' '
-
-    function displayOneDay(one_days_hours) {
-        renderOutput(one_days_hours)
+    function displayOneDaysHours(one_days_hours) {
     
-
-    let output = one_days_hours = one_days_hours + " - ";
-
-    displayOneDay("Monday: 9a - 9p");
-
+    
+    let parts_of_hours = one_days_hours.split(": ");
+    renderOutput("On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + ".");
     }
 
-
-
-//split the array
-//function splitString () {
-//let days_of_week = hours.split(", ");
-//console.log(days_of_week[1], days_of_week[0]);
-//}
-
+    function dailyhours(hours) {
+        console.log("daily hours worked");
+    }
