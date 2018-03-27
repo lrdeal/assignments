@@ -29,6 +29,8 @@ let hours = [
      }
    }
 
-    function dailyhours(hours) {
-        console.log("daily hours worked");
+    function dailyHours(hours) {
+        hours.forEach(displayOneDaysHours);
     }
+
+    dailyHours(hours);
