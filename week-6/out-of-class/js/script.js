@@ -20,8 +20,14 @@ let hours = [
     
     
     let parts_of_hours = one_days_hours.split(": ");
-    renderOutput("On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + ".");
-    }
+    let output = "On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + "."
+    
+    if (parts_of_hours[0] === "Sunday") {
+      renderOutput("On Sunday the Library is closed");
+    } else {
+      renderOutput("On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + ".")
+     }
+   }
 
     function dailyhours(hours) {
         console.log("daily hours worked");
