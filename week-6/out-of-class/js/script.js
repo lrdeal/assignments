@@ -18,7 +18,7 @@ let hours = [
 
     function displayOneDaysHours(one_days_hours) {
     
-    
+    //split the hours, start with variables and then make a loop that if it is not sunday it should display the other hours
     let parts_of_hours = one_days_hours.split(": ");
     let output = "On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + "."
     
@@ -28,7 +28,7 @@ let hours = [
       renderOutput("On " + parts_of_hours[0] +  " the hours are " + parts_of_hours[1] + ".")
      }
    }
-
+    //display the weeks hours to the user
     function dailyHours(hours) {
         hours.forEach(displayOneDaysHours);
     }
