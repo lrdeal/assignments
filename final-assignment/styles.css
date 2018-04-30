@@ -1,0 +1,122 @@
+html {
+  background: #98878F;
+  font-style: serif;
+}
+
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: #192231;
+    text-align: center;
+    font-family: serif;
+    font-size: 140%;
+ 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #985E6D;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+
+/*start nav formatting*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #985E6D;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+}
+
+/*End nav formatting*/
+
+img {
+  float: left;
+  width: 200px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+
+p, article {
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*start button formatting*/
+.buttondiv {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.button {
+    background-color: #192231;
+    border: none;
+    color: white;
+    padding: 30px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: serif;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+/*end button formatting*/
